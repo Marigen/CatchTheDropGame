@@ -31,7 +31,7 @@ public class GameWindow extends JFrame {
         game_window.setResizable(false);
         last_frame_time = System.nanoTime();
         GameField game_field = new GameField();
-        
+
         game_field.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
